@@ -1,0 +1,155 @@
+$primary:#5265E1;
+$secondary:#FA5959;
+
+$theme-colors:(
+    "primary": $primary,
+    "secondary": $secondary,
+);
+.boton-firefox¨{
+    border-color: #000;
+}
+
+.preguntas{
+    width: 700px;
+}
+.botonprimerapaguina:hover{
+  
+    color: #000;
+    border: #000;
+}
+#fondoazul{
+    height: 330px;
+    width: 650px;
+    border-radius:15vw;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    z-index: -1;
+}
+
+
+.latrasFacturas{
+    text-align: start;
+}
+.card{
+    height: 500px;
+    
+}
+.card1{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.card2{
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+
+}
+.card3{
+    margin-top: 10%;
+   
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#fondoazul2{
+    
+    height: 330px;
+    width: 650px;
+    border-radius:15vw;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    z-index: -1;
+}
+.imgFacturas{
+    margin-bottom: 100px;
+}
+@media (min-width: 1200px) and (max-width:1399.98px){
+    #fondoazul2{
+        width: 500px;
+    }
+    #fondoazul{
+        width: 500px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width:991.98px){
+    #fondoazul2{
+        width: 500px;
+    }
+    #fondoazul{
+        width: 500px;
+    }
+
+
+
+}
+@media (min-width: 576px) and (max-width:767.98px){
+    #fondoazul2{
+        width: 450px;
+        border-radius:18vw;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    #fondoazul{
+        width: 450px;
+        border-radius:18vw;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .card{
+        align-content: center;
+    }
+}
+@media  (max-width:575.98px){
+    #fondoazul2{
+        width: 450px;
+        border-radius:25vw;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    #fondoazul{
+        width: 450px;
+        border-radius:25vw;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .card{
+        width: 400px;
+        height: auto;
+       
+    }
+    .card-group{
+        justify-content:center ;
+    }
+    
+    .card1{
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .card2{
+        margin-top: 5%;
+        margin-right: 2%;
+        margin-left: 2%;
+    
+    }
+    .card3{
+        margin-top: 10%;
+       
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+
+}
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
