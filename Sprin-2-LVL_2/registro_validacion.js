@@ -40,9 +40,9 @@ $(function() {
   
       $("#register-form").on('submit', function() {
           if ($('#register-form').valid()) {
-              alert("¡Correo valido");
+            document.getElementById("alertValidacion").innerHTML = "¡Correo valido";
           } else {
-              alert("Correo no valio");
+            document.getElementById("alertValidacion").innerHTML = "¡Correo no valido";;
           }
       });
   
