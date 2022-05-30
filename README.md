@@ -2,4 +2,5 @@
 Aplicando conocimientos adquiridos en el __Sprint 2 de [It Academy](https://www.barcelonactiva.cat/es/itacademy)__
 1. Bootstrap 5
 2. Sass
-3. Una pequiña validacion de formulario con Jquery 
+3. Una pequeña validacion de formulario con Jquery 
+recomdacion descargar SOLAMENTE EL 
