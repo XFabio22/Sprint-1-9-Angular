@@ -41,8 +41,8 @@
 }
 
 #fondoazul {
-  height: 330px;
-  width: 650px;
+  height: 15em;
+  width: 100%;
   border-radius: 15vw;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -95,14 +95,14 @@
   margin-bottom: 100px;
 }
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {
+/* @media (min-width: 1200px) and (max-width: 1399.98px) {
   #fondoazul2 {
     width: 500px;
   }
   #fondoazul {
     width: 500px;
   }
-}
+} */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   #fondoazul2 {
