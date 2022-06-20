@@ -5,6 +5,28 @@ $theme-colors:(
     "primary": $primary,
     "secondary": $secondary,
 );
+#boton-FireFox{
+    background-color: #000;
+    color: #ffff !important;
+}
+#boton-FireFox:hover{
+    background-color: #fff;
+    color: #000 !important;
+}
+#boton-chrome:hover{
+    background-color: white;
+    color: #5265E1 !important;
+}
+#texto-primary:hover{
+    color: #fa5959 !important;
+}
+#texto-primary2:hover{
+    color: #fa5959 !important;
+}
+#btn-secondary:hover {
+    background-color: white;
+    color: #fa5959 !important;
+  }
 .boton-firefox¨{
     border-color: #000;
 }
@@ -28,20 +50,18 @@ $theme-colors:(
     margin-right: 2%;
     margin-left: 2%;
 }
+
 .preguntasTitulo{
     width: 700px;
 }
 .preguntas{
     width: 700px;
 }
-.hoverSpecial:hover{
-    color: #FA5959;
-}
 .navBarestatica{
     background-color: #adb5bd;
 }
 #fondoazul{
-    width: 60%;
+    width: 35%;
     height: 15rem;
     border-radius:15vw;
     border-top-right-radius: 0px;
@@ -55,15 +75,6 @@ $theme-colors:(
 .fotterNav{
     background-color:#1f275b ;
 }
-#blue-background-left {
-    background-color: #5265e1;
-    width: 60%;
-    height: 15rem;
-    border-radius:15vw;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
 .latrasFacturas{
     text-align: start;
 }
@@ -71,26 +82,11 @@ $theme-colors:(
     height: 600px;
     
 }
-.card1{
-    // margin-right: 2%;
-    // margin-left: 2%;
-}
-.card2{
-    // margin-top: 5%;
-    // margin-right: 2%;
-    // margin-left: 2%;
 
-}
-.card3{
-    // margin-top: 10%;
-   
-    // margin-right: 2%;
-    // margin-left: 2%;
-}
 
 #fondoazul2{
     
-    width: 60%;
+    width: 50%;
     height: 15rem;
     border-radius:15vw;
     border-top-left-radius: 0px;
@@ -143,26 +139,43 @@ $theme-colors:(
     //     height: 100%;
         
     // }
+    #fondoazul2{
+        width: 70%;
+        height:  15rem;
+        border-radius:20vw;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    #fondoazul{
+        width: 70%;
+        height: 15rem;
+        border-radius:20vw;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
     
 }
 @media  (max-width:575.98px){
-    // #fondoazul2{
-    //     width: 450px;
-    //     border-radius:25vw;
-    //     border-top-left-radius: 0px;
-    //     border-bottom-left-radius: 0px;
-    // }
-    // #fondoazul{
-    //     width: 450px;
-    //     border-radius:25vw;
-    //     border-top-right-radius: 0px;
-    //     border-bottom-right-radius: 0px;
-    // }
+    #fondoazul{
+        width: 70%;
+        height: 10rem;
+        border-radius:20vw;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    #fondoazul2{
+        width: 70%;
+        height: 10rem;
+        border-radius:20vw;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
     .card{
         width: 400px;
         height: auto;
        
     }
+    
 
 }
 
@@ -173,5 +186,4 @@ $theme-colors:(
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-
 
